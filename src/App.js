@@ -1,5 +1,7 @@
 
 import { BrowserRouter, Routes, Route} from "react-router-dom";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import Explore from "./pages/Expolre";
 import ForgotPassword from "./pages/ForgotPassword";
 import Offers from "./pages/Offers";
@@ -22,10 +24,10 @@ function App() {
             <Route path="/sign-in" element={<SignIn />} />
             <Route path="/sign-up" element={<SignUp />} />
             <Route path="/forgot-password" element={<ForgotPassword />} />
-
                 </Routes>
         <Navbar/>
         </BrowserRouter>
+    <ToastContainer />
 
 </>
 

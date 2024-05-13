@@ -633,7 +633,7 @@ button {
 .profileDetailsHeader {
   display: flex;
   justify-content: space-between;
-  max-width: 500px;
+
 }
 
 .personalDetailsText {
